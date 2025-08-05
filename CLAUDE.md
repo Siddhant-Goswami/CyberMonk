@@ -28,5 +28,19 @@ Add your common development commands here, for example:
 ## Project Structure
 Describe your project structure and key directories here.
 
+## Security Guidelines
+⚠️ **CRITICAL**: Never commit API keys, tokens, or credentials to version control!
+
+### Environment Variables
+- Copy `.env.example` to `.env` and fill in your actual credentials
+- Never share credentials in plain text or commit them to git
+- Revoke and regenerate any exposed tokens immediately
+- Use Twitter Developer Dashboard to manage credentials securely
+
+### API Credentials Required
+- Twitter Bearer Token (for read operations)
+- Twitter API Key & Secret (for write operations)
+- Twitter Access Token & Secret (for user-specific operations)
+
 ## Notes
 Add any important notes about the project, coding conventions, or special considerations.
