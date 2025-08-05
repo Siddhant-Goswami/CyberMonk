@@ -181,3 +181,7 @@ Thumbs.db
 # Test files
 test-results/
 screenshots/
+
+# Keep test files for demo purposes
+!test_api.js
+!test_tweet_posting.js

@@ -1,0 +1,38 @@
+{
+  "name": "twitter-api-test",
+  "version": "1.0.0",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js",
+    "test": "jest",
+    "test:watch": "jest --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Siddhant-Goswami/CyberMonk.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Siddhant-Goswami/CyberMonk/issues"
+  },
+  "homepage": "https://github.com/Siddhant-Goswami/CyberMonk#readme",
+  "description": "A robust Node.js REST API server for posting tweets to X (Twitter) with comprehensive rate limiting and error handling",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0",
+    "express-rate-limit": "^8.0.1",
+    "helmet": "^8.1.0",
+    "node-cache": "^5.1.2",
+    "twitter-api-v2": "^1.24.0",
+    "winston": "^3.17.0"
+  },
+  "devDependencies": {
+    "jest": "^30.0.5",
+    "nodemon": "^3.1.10",
+    "supertest": "^7.1.4"
+  }
+}
